@@ -25,11 +25,9 @@ ordenadoPorCantidadLetras.sort(
     (a, b) => a.length - b.length
 )
 
-arregloConNuevoColorInicio = [...original]
-arregloConNuevoColorInicio.unshift('Marrón')
+arregloConNuevoColorInicio = ['Marrón', ...original]
 
-arregloConNuevoColorFin = [...original]
-arregloConNuevoColorFin.push('Naranja')
+arregloConNuevoColorFin = [...original, 'Naranja']
 
 
 // -------
