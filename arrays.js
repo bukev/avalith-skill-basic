@@ -15,7 +15,7 @@ cantidadColoresConA = original.reduce((cant, color) => {
     return cant
 }, 0)
 
-arregloSinAzul = [...original]      //copia desestructurada de array original
+arregloSinAzul = [...original]
     .splice(0, original.indexOf('Azul'))
     .concat([...original].splice(original.indexOf('Azul') + 1, original.length));
 
